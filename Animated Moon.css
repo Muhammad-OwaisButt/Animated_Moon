@@ -1,0 +1,130 @@
+body {
+    background-image: url("dark-sky.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+}
+#_moon {
+    background-color: rgba(230, 230, 230, 0.8);
+    background-image: linear-gradient(to top, rgb(102, 102, 102), rgb(115, 115, 115, 0.8), rgb(128, 128, 128, 0.8), rgb(140, 140, 140, 0.8), rgb(153, 153, 153, 0.8), rgb(166, 166, 166, 0.8), rgb(179, 179, 179, 0.8), rgb(191, 191, 191, 0.8), rgb(204, 204, 204, 0.8), rgb(217, 217, 217, 0.8), rgb(230, 230, 230, 0.8), rgb(242, 242, 242, 0.8) );
+    box-shadow: 3px 3px 20px grey;
+    width: 130px;
+    height: 130px;
+    border-radius: 120px;
+    margin-top: 38%;
+    margin-left: 0%;
+    padding-left: 0%;
+    animation-name: moon;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    position: absolute;
+    opacity: 0;
+    
+}
+
+@keyframes moon {
+   0% { opacity: 0; left:100px; bottom:0px;}
+   1% { opacity: 0.1; left:110px; bottom:15px;}
+   2% { opacity: 0.1; left:120px; bottom:30px;}
+   3% { opacity: 0.1; left:130px; bottom:45px;}
+   4% { opacity: 0.2; left:140px; bottom:60px;}
+   5% { opacity: 0.2; left:150px; bottom:75px;}
+   6% { opacity: 0.2; left:160px; bottom:90px;}
+   7% { opacity: 0.3; left:170px; bottom:105px;}
+   8% { opacity: 0.3; left:180px; bottom:120px;}
+   9% { opacity: 0.3; left:190px; bottom:135px;}
+   10% { opacity: 0.4; left:200px; bottom:150px;}
+   11% { opacity: 0.4; left:210px; bottom:165px;}
+   12% { opacity: 0.4; left:220px; bottom:180px;}
+   13% { opacity: 0.5; left:230px; bottom:195px;}
+   14% { opacity: 0.5; left:240px; bottom:210px;}
+   15% { opacity: 0.5; left:250px; bottom:225px;}
+   16% { opacity: 0.6; left:260px; bottom:240px;}
+   17% { opacity: 0.6; left:270px; bottom:255px;}
+   18% { opacity: 0.6; left:280px; bottom:270px;}
+   19% { opacity: 0.7; left:290px; bottom:285px;}
+   20% { opacity: 0.7; left:300px; bottom:300px;}
+   21% { opacity: 0.7; left:310px; bottom:315px;}
+   22% { opacity: 0.8; left:320px; bottom:330px;}
+   23% { opacity: 0.8; left:330px; bottom:345px;}
+   24% { opacity: 0.8; left:340px; bottom:360px;}
+   25% { opacity: 0.9; left:350px; bottom:375px;}
+   26% { opacity: 0.9; left:360px; bottom:390px;}
+   27% { opacity: 0.9; left:370px; bottom:405px;}
+   28% { opacity: 1; left:380px; bottom:420px;}
+   29% { left:390px; bottom:435px;}
+   30% { left:400px; bottom:450px;}
+   31% { left:410px; bottom:465px;}
+   32% { left:420px; bottom:480px;}
+   33% { left:430px; bottom:495px;}
+   34% { left:440px; bottom:510px;}
+   35% { left:450px; bottom:525px;}
+   36% { left:460px; bottom:540px;}
+   37% { left:470px; bottom:555px;}
+   38% { left:480px; bottom:570px;}
+   39% { left:490px; bottom:585px;}
+   
+   40% { left:500px; bottom:586px;}
+   41% { left:515px; bottom:587px;}
+   42% { left:540px; bottom:588px;}
+   43% { left:565px; bottom:589px;}
+   44% { left:590px; bottom:590px;}
+   45% { left:615px; bottom:591px;}
+   46% { left:640px; bottom:592px;}
+   47% { left:665px; bottom:593px;}
+   48% { left:690px; bottom:594px;}
+   49% { left:715px; bottom:594px;}
+   50% { opacity: 1; left:920px; bottom:594px;}
+   51% { left:940px; bottom:594px;}
+   52% { left:1020px; bottom:594px;}
+   53% { left:1040px; bottom:593px;}
+   54% { left:1060px; bottom:592px;}
+   55% { left:1080px; bottom:591px;}
+   56% { left:1100px; bottom:590px;}
+   57% { left:1120px; bottom:589px;}
+   58% { left:1140px; bottom:588px;}
+   59% { left:1160px; bottom:587px;}
+   60% { left:1180px; bottom:586px;}
+   
+   61% { left:1190px; bottom:585px;}
+   62% { left:1200px; bottom:570px;}
+   63% { left:1210px; bottom:555px;}
+   64% { left:1220px; bottom:540px;}
+   65% { left:1230px; bottom:525px;}
+   66% { left:1240px; bottom:510px;}
+   67% { left:1250px; bottom:495px;}
+   68% { left:1260px; bottom:480px;}
+   69% { left:1270px; bottom:465px;}
+   70% { left:1280px; bottom:450px;}
+   71% { left:1290px; bottom:435px;}
+   72% { opacity: 1; left:1300px; bottom:420px;}
+   73% { opacity: 0.9; left:1310px; bottom:405px;}
+   74% { opacity: 0.9; left:1320px; bottom:390px;}
+   75% { opacity: 0.9; left:1330px; bottom:375px;}
+   76% { opacity: 0.8; left:1340px; bottom:360px;}
+   77% { opacity: 0.8; left:1350px; bottom:345px;}
+   78% { opacity: 0.8; left:1360px; bottom:330px;}
+   79% { opacity: 0.7; left:1370px; bottom:315px;}
+   80% { opacity: 0.7; left:1380px; bottom:300px;}
+   81% { opacity: 0.7; left:1390px; bottom:285px;}
+   82% { opacity: 0.6; left:1400px; bottom:270px;}
+   83% { opacity: 0.6; left:1410px; bottom:255px;}
+   84% { opacity: 0.6; left:1420px; bottom:240px;}
+   85% { opacity: 0.5; left:1430px; bottom:225px;}
+   86% { opacity: 0.5; left:1440px; bottom:210px;}
+   87% { opacity: 0.5; left:1450px; bottom:195px;}
+   88% { opacity: 0.4; left:1460px; bottom:180px;}
+   89% { opacity: 0.4; left:1470px; bottom:165px;}
+   90% { opacity: 0.4; left:1480px; bottom:150px;}
+   91% { opacity: 0.3; left:1490px; bottom:135px;}
+   92% { opacity: 0.3; left:1500px; bottom:120px;}
+   93% { opacity: 0.3; left:1510px; bottom:105px;}
+   94% { opacity: 0.2; left:1520px; bottom:90px;}
+   95% { opacity: 0.2; left:1530px; bottom:75px;}
+   96% { opacity: 0.2; left:1540px; bottom:60px;}
+   97% { opacity: 0.1; left:1550px; bottom:45px;}
+   98% { opacity: 0.1; left:1560px; bottom:30px;}
+   99% { opacity: 0; left:1570px; bottom:15px;}
+   100% { opacity: 0; left:1500px; bottom:0px;}
+}
